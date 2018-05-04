@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ejercicios03052018</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Trabajo videos</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anonima">Botón usando clase anonima</string>
+    <string name="implemento">Botón usando implements</string>
+    <string name="onclick">Botón usando onClick</string>
+    <string name="componentesT">Componetes de texto</string>
+    <string name="ingresen">Ingrese el documento</string>
+    <string name="passwordD">Ingrese su password</string>
+    <string name="fechai">Ingrese su fecha de expedición</string>
+    <string name="textarea">Ingrese el texto</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="mconsola">Mira en la consola</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="ingresenombre">Ingrese nombre</string>
+    <string name="cargar">cargar</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="title_activity_view_pager">ViewPager</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_vp">ActivityVP</string>
+    <string name="uno">Uno</string>
+    <string name="dos">Dos</string>
+    <string name="tres">Tres</string>
+
+    <!--new strings-->
+    <string name="messChe">Seleccionar</string>
+    <string name="btn1">Validar</string>
+    <string name="btnToast">Probar Toast</string>
+    <string name="mensajesena">EL SERVICIO NACIONAL DE APRENDIZAJE – SENA, convoca a todos los Empleados Públicos del SENA inscritos en el escalafón de la carrera administrativa que estén interesados en ocupar mediante ENCARGO un empleo de la PLANTA TEMPORAL del SENA.</string>
+
+
+</resources>

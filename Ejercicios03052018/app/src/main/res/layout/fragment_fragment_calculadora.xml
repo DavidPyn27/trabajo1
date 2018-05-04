@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".fragmets.FragmentCalculadora">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:text="OPERACIONES MATEMATICAS"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/icono" />
+
+    <EditText
+        android:id="@+id/campo1"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/background_light"
+        android:hint="Ingrese el numero 1"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/campo2"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/background_light"
+        android:inputType="number"
+        android:hint="Ingrese el numero 2" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="38dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/btnRestar"
+            android:text="*"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btnSumar"
+            android:text="/"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/etiResultado"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Resultado:"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

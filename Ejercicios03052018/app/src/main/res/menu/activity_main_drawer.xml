@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Import" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Toogle Button" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Botones" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Texto" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="ConstrainLayout" />
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/ic_menu_send"
+        android:title="LinearLayout" />
+
+    <item
+        android:id="@+id/iteml1"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="RelativeLayout" />
+    <item
+        android:id="@+id/iteml2"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Consola" />
+    <item
+        android:id="@+id/iteml3"
+        android:icon="@drawable/ic_menu_send"
+        android:title="ColorLinerLayout" />
+    <item
+        android:id="@+id/iteml4"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="SharedPreferens" />
+    <item
+        android:id="@+id/iteml5"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Fragment Evento" />
+    <item
+        android:id="@+id/iteml6"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="View Pager" />
+    <item
+        android:id="@+id/iteml7"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Fragmento Dinamico" />
+    <item
+        android:id="@+id/item18"
+        android:icon="@drawable/side_nav_bar"
+        android:title="CheckBox"/>
+
+    <item
+        android:id="@+id/item19"
+        android:icon="@drawable/side_nav_bar"
+        android:title="Switch"/>
+
+    <item
+        android:id="@+id/item20"
+        android:icon="@drawable/side_nav_bar"
+        android:title="Scroll"/>
+
+    <item
+        android:id="@+id/item21"
+        android:icon="@drawable/side_nav_bar"
+        android:title="RelativeLayout"/>
+
+    <item
+        android:id="@+id/item22"
+        android:icon="@drawable/side_nav_bar"
+        android:title="Calculadora"/>
+
+
+
+</menu>
